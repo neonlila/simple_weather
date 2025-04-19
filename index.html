@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    
+    <link href="weather.css" rel="stylesheet" />
+
+
+</head>
+<!-- body has green color: green-screen purpose. remove if you need -->
+<body>
+
+    <div id="weather_widget">
+        <div class="weather_temp_icon">
+            <div id="weather__temp" class="teko-bold"></div>
+        </div>
+        
+        <img id="weather__icon" src="" alt="Weather Icon">
+
+        <div class="weather__datetime">
+            <div id="weather__time_info">
+                <img src="assets/images/time.png">
+                <div id="weather__time" class="teko-bold"></div>
+            </div>
+
+            <div id="weather__date_info">
+                <img src="assets/images/calendar.png">
+                <div id="weather__date" class="teko-bold"></div>
+            </div>
+        </div>
+    </div>    
+ 
+
+</body>
+    <script src="weather_api.js"></script>
+</html>
