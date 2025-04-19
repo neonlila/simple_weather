@@ -15,7 +15,7 @@ Perfect for stream overlays with built-in green screen support!
 🚀 Usage
 1. Clone the Repository
 
-git clone https://github.com/your-username/weather-widget.git
+git clone https://github.com/neonlila/weather-widget.git
 
 2. Set Your Location Open weather_api.js and update the lat and lon values with your coordinates:
 const apiUrl = `https://api.brightsky.dev/weather?lat=YOUR_LAT&lon=YOUR_LON&date=${formattedDate}`;
